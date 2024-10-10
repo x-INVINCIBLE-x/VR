@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 8357506107902521799}
   - component: {fileID: 2198887567077408585}
   - component: {fileID: 29158527399270027}
+  - component: {fileID: 6463901284065280945}
   m_Layer: 0
   m_Name: Sword_DH
   m_TagString: Untagged
@@ -312,6 +313,26 @@ MonoBehaviour:
   m_MinimumScaleRatio: 0.25
   m_MaximumScaleRatio: 2
   m_ScaleMultiplier: 0.25
+--- !u!114 &6463901284065280945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1845237839428460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4da97ab06e8de6a459f0c5688e0e131b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startSlicePoint: {fileID: 0}
+  endSlicePoint: {fileID: 0}
+  sliceableLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  velocityEstimator: {fileID: 0}
+  crossSectionMaterial: {fileID: 0}
+  cutForce: 2000
 --- !u!1 &540908166308410512
 GameObject:
   m_ObjectHideFlags: 0

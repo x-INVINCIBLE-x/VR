@@ -46,9 +46,11 @@ public class SliceObject : MonoBehaviour
         {
             GameObject upperHull = hull.CreateUpperHull(target,crossSectionMaterial);
             SetupSlicedComponent(upperHull);
+            upperHull.layer = target.layer;
 
             GameObject lowerHull = hull.CreateLowerHull(target,crossSectionMaterial);
             SetupSlicedComponent(lowerHull);
+            lowerHull.layer = target.layer;
 
             Destroy(target);
         }
